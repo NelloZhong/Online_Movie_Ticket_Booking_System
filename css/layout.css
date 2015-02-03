@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+ul.menubar a:hover {
+	text-decoration: underline;
+}
+
+ul.menubar a {
+	color: #336699;
+}
+
+ul,li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menubar li {
+	display: inline;
+	margin-right: 10px;
+}
+
+h2 {
+	color: #336699;
+}
+
+table,td,th {
+	border-collapse: collapse;
+	border: solid 1px #6699CC;
+}
+
+th {
+	background-color: #6699CC;
+	color: white;
+}
+
+td.align_right {
+	text-align: right;
+}
+
+td.align_center {
+	text-align: center;
+}
+
+p.book_label {
+	float: left;
+	width: 60px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+div.book_detail div {
+	margin: 5px 0;
+}
+
+input.login_btn {
+	margin-left: 82px;
+}
+
+label.login_lb {
+	float: left;
+	width: 80px;
+	text-align: right;
+}
+
+input.btn,a.btn {
+	background-color: #6699CC;
+	font-size : 12px;
+	padding: 5px 8px;
+	color: white;
+	border: none;
+	color: white;
+	cursor: pointer;
+	-webkit-border-radius: 8px;
+	font-size: 12px;
+}
+
+li.menu_username {
+	color: #336699;
+	font-size: 12px;
+}
+
+p.login_error {
+	margin-left: 80px;
+	color: red;
+}
+
+.myinfo label {
+	margin-right: 5px;
+}
+
+.myinfo a {
+	margin-left: 85px;
+}
+
+p.order_label {
+	float: left;
+	width: 120px;
+	margin-right: 5px;
+	text-align: right;
+}
